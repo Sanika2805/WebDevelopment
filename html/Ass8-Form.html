@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            padding: 20px;
+            width: 400px;
+            margin: auto
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Assignmnet 8</h1>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <form action="successful.html" method="get" class="box">
+        
+        <label for="empid">Employee id:</label><br>
+        <input type="text" id="empid" name="empid" value=""><br>
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Email:</label><br>
+        <input type="email" id="lname" name="lname" value=""><br><br>
+        <label for="Mobno.">Phone Number:</label><br>
+        <input type="text" id="Mobno." name="Mobno." value=""><br><br>
+
+        <label for="bdate">Birthdate:</label><br>
+        <input type="date" id="bdate" name="bdate"><br><br>
+
+
+        <p>Gender:</p>
+         <input type="radio" id="Male" name="gen" value="Male">
+         <label for="Male">Male</label><br>
+         <input type="radio" id="Female" name="gen" value="Female">
+         <label for="Female">Female</label><br>
+         <input type="radio" id="Other" name="gen" value="Other">
+         <label for="Other">Other</label>
+          
+        <br><br>
+
+        <label for="department">Department</label>
+        <select id="department" name="dep" required>
+            <option value="">Select</option>
+            <option value="">HR</option>
+            <option value="">IT</option>
+            <option value="">Finance</option>
+            <option value="">Marketing</option>
+            <option value="">Sales</option>
+        </select>
+
+        <br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" id="Java" name="" value="">
+        <label for="Java">Java</label><br>
+        <input type="checkbox" id="python" name="" value="">
+        <label for="pyhon">Python</label><br>
+        <input type="checkbox" id="Js" name="" value="">
+        <label for="Js">Javascript</label><br><br>
+
+        <input type="Submit" value="Submit">
+
+   </form> 
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!D lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Assignments</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #24404b, #336e7f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      border: 5px solid #2a5298;
+      max-width: 900px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #2a5298;
+      margin-bottom: 40px;
+      text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      background: linear-gradient(90deg, #24404b, #336e7f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .button-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .btn {
+      width: 160px;
+      height: 50px;
+      line-height: 50px;
+      background: linear-gradient(145deg, #38a391, #4bb99a);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn:hover {
+      background: linear-gradient(145deg, #38a391, #4bb99a);
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>XML Assignments</h1>
+
+    <div class="button-container">
+      <a href="Books.xml" class="btn">Book XML</a>
+      <a href="library.xml" class="btn">Library XML</a>
+      <a href="employees.xml"class="btn">Employee XML</a>
+      <a href="students.xml" class="btn">Student XML</a>
+      
+    </div>
+  </div>
+
+</body>

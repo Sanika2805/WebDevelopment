@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Assignments</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #24404b, #336e7f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      border: 5px solid #3a5d99;
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: ;
+      margin-bottom: 40px;
+      text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      background: linear-gradient(90deg, #1e3c72, #2a5298);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .btn {
+      width: 200px;
+      height: 50px;
+      line-height: 50px;
+      background: linear-gradient(145deg, #38a391, #4bb99a);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn:hover {
+      background: linear-gradient(145deg, #38a391, #4bb99a );
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>CSS Assignments</h1>
+
+    <div class="button-container">
+      <a href="InlineCSS.html" class="btn">Inline CSS</a>
+      <a href="InternalCSS.html" class="btn">Internal CSS</a>
+      <a href="ExternalCSS.html" class="btn">External CSS</a>
+      <a href="timtablewcss.html" class="btn">Timetable CSS</a>
+      <a href="formwCSS.html" class="btn">Form CSS</a>
+      <a href="resumewcss.html" class="btn">Resume CSS</a>
+    </div>
+  </div>
+
+</body>
+</html>

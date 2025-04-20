@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Form</title>
+  <link href="form.css" rel="stylesheet">
+</head>
+<body>
+
+  
+  <h1>Registration Form</h1>
+
+  <form action="successful1.html" method="get" class="form-container">
+    <label for="empid">Employee ID:</label>
+    <input type="text" id="empid" name="empid" />
+
+    <label for="fname">Full Name:</label>
+    <input type="text" id="fname" name="fname" />
+
+    <label for="lname">Email:</label>
+    <input type="email" id="lname" name="lname" />
+
+    <label for="Mobno.">Phone Number:</label>
+    <input type="text" id="Mobno." name="Mobno." />
+
+    <label for="bdate">Birthdate:</label>
+    <input type="date" id="bdate" name="bdate" />
+
+    <div class="gender">
+      <label>Gender:</label><br>
+      <input type="radio" id="Male" name="gen" value="Male"><label for="Male">Male</label><br>
+      <input type="radio" id="Female" name="gen" value="Female"><label for="Female">Female</label><br>
+      <input type="radio" id="Other" name="gen" value="Other"><label for="Other">Other</label>
+    </div>
+
+    <label for="department">Department:</label>
+    <select id="department" name="dep" required>
+      <option value="">Select</option>
+      <option value="HR">HR</option>
+      <option value="IT">IT</option>
+      <option value="Finance">Finance</option>
+      <option value="Marketing">Marketing</option>
+      <option value="Sales">Sales</option>
+    </select>
+
+    <div class="skills">
+      <label>Skills:</label><br>
+      <input type="checkbox" id="Java" name="skills" value="Java"><label for="Java">Java</label>
+      <input type="checkbox" id="Python" name="skills" value="Python"><label for="Python">Python</label>
+      <input type="checkbox" id="Js" name="skills" value="Javascript"><label for="Js">JavaScript</label>
+    </div>
+
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>
